@@ -1,0 +1,35 @@
+.text{
+    display: flex;
+    gap: 60px;
+}
+.para1{
+
+    height: 330px;
+
+padding: 20px;
+text-align: justify;
+    width: 200px;
+    background-color: bisque;
+color: brown;
+border: 5px outset rgba(165, 42, 42, 0.247);
+}
+.para1::first-letter{
+font-size: 50px;
+line-height: 20px;
+color: brown;
+}
+.para2{
+    height: 330px;
+
+    padding: 20px;
+text-align: justify;
+    width: 200px;
+    background-color: bisque;
+color: brown;
+border: 5px outset rgba(165, 42, 42, 0.247);
+}
+.para2::first-letter{
+font-size: 50px;
+line-height: 20px;
+color: brown;
+}
